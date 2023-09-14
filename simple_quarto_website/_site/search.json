@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome to About Page\n\n\nPage created by Yicheng Zhu\n\n\nYicheng Zhu is a DSAN 5000 student."
+  },
+  {
+    "objectID": "about.html#credit",
+    "href": "about.html#credit",
+    "title": "About",
+    "section": "",
+    "text": "Page created by Yicheng Zhu\n\n\nYicheng Zhu is a DSAN 5000 student."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Welcome to this simple quarto website!\n\n“Knowledge is power.” - Francis Bacon\n\n\n\nHere is an inline-math LaTex equation: \\(( E = mc^2 )\\).\n\n\n\n\nHere is Column 1.\n\nHere is Column 2.\n\n\n\n\n\n\nItem one\nItem two\nItem three\n\n\n\n\n\n\n\nHeader One\nHeader Two\n\n\n\n\nRow1Col1\nRow1Col2\n\n\nRow2Col1\nRow2Col2\n\n\n\n\n\n\nThe following is a non inline-math LaTex equation:\n\\[\nx = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\n\\]\n\n\n\nHere’s an image:\n\n\n\nYicheng’s Photo\n\n\nAnd another one:\n\n\n\nYicheng’s Photo 4 years ago\n\n\nHere’s a video\n\n\n\n\n\n\n\n\nsequenceDiagram\n    participant A\n    participant B\n    A-&gt;&gt;C: relationship_1\n    loop \n    C-&gt;&gt;C: relationship_2\n    C-&gt;&gt;B: relationship_3\nend\n\n\n\n\n\n\n\n\nHere is a footnote reference.1\n\n\n\nAs discussed in (Gaich and Pötsch 2015), … Also in (Bhandari et al. 1997), …"
+  },
+  {
+    "objectID": "index.html#subsection-one",
+    "href": "index.html#subsection-one",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Here is an inline-math LaTex equation: \\(( E = mc^2 )\\).\n\n\n\n\nHere is Column 1.\n\nHere is Column 2.\n\n\n\n\n\n\nItem one\nItem two\nItem three\n\n\n\n\n\n\n\nHeader One\nHeader Two\n\n\n\n\nRow1Col1\nRow1Col2\n\n\nRow2Col1\nRow2Col2\n\n\n\n\n\n\nThe following is a non inline-math LaTex equation:\n\\[\nx = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}\n\\]\n\n\n\nHere’s an image:\n\n\n\nYicheng’s Photo\n\n\nAnd another one:\n\n\n\nYicheng’s Photo 4 years ago\n\n\nHere’s a video\n\n\n\n\n\n\n\n\nsequenceDiagram\n    participant A\n    participant B\n    A-&gt;&gt;C: relationship_1\n    loop \n    C-&gt;&gt;C: relationship_2\n    C-&gt;&gt;B: relationship_3\nend\n\n\n\n\n\n\n\n\nHere is a footnote reference.1\n\n\n\nAs discussed in (Gaich and Pötsch 2015), … Also in (Bhandari et al. 1997), …"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nHere is the footnote.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#citation",
+    "href": "slides/slides.html#citation",
+    "title": "Quarto Slides",
+    "section": "Citation",
+    "text": "Citation\n\nAs discussed in (Gaich and Pötsch 2015), …"
+  },
+  {
+    "objectID": "slides/slides.html#image",
+    "href": "slides/slides.html#image",
+    "title": "Quarto Slides",
+    "section": "Image",
+    "text": "Image"
+  },
+  {
+    "objectID": "slides/slides.html#code",
+    "href": "slides/slides.html#code",
+    "title": "Quarto Slides",
+    "section": "Code",
+    "text": "Code\nimport matplotlib.pyplot as plt\nplt.plot([1, 2, 3], [1, 4, 9])\nplt.show()"
+  },
+  {
+    "objectID": "slides/slides.html#outcome",
+    "href": "slides/slides.html#outcome",
+    "title": "Quarto Slides",
+    "section": "Outcome",
+    "text": "Outcome"
+  }
+]

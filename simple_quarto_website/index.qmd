@@ -1,0 +1,81 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+toc: true
+---
+
+# Introduction
+
+Welcome to this simple quarto website! 
+
+> "Knowledge is power." - Francis Bacon
+
+## Subsection One
+
+Here is an inline-math LaTex equation: $( E = mc^2 )$.
+
+### Two Column Section
+
+:::: {.columns}
+::: {.column}
+Here is Column 1.
+:::
+::: {.column}
+Here is Column 2. 
+:::
+::::
+
+### Bulleted List
+
+- Item one
+- Item two
+- Item three
+
+### Table
+
+| Header One | Header Two |
+|------------|------------|
+| Row1Col1   | Row1Col2   |
+| Row2Col1   | Row2Col2   |
+
+### Equations
+
+The following is a non inline-math LaTex equation:
+
+$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$
+
+### Images and Videos
+
+Here's an image:
+
+![Yicheng's Photo](images/photo1.jpg)
+
+And another one:
+
+![Yicheng's Photo 4 years ago](images/photo2.jpg)
+
+Here's a video
+{{< video https://www.youtube.com/embed/mUfYXr4VKgI >}}
+
+### Mermaid Diagram
+```{mermaid}
+sequenceDiagram
+    participant A
+    participant B
+    A->>C: relationship_1
+    loop 
+    C->>C: relationship_2
+    C->>B: relationship_3
+end
+```
+
+### Foot-note
+Here is a footnote reference.[^1]
+
+[^1]: Here is the footnote.
+
+### Citation
+As discussed in [@gaich20153d], ...
+Also in [@bhandari1997advanced], ...

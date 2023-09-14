@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "simple_quarto_website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.ipynb
+        text: about
+      - href: slides/slides.ipynb
+        text: slides
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+
